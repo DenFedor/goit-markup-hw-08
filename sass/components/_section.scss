@@ -1,0 +1,10 @@
+.section {
+	display: flex;
+	justify-content: center;
+	padding: 60px 0;
+
+	@include desktop {
+		padding: 94px 0;
+	}
+
+}

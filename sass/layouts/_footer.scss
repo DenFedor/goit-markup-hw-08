@@ -1,0 +1,105 @@
+.footer {
+	background: #2f303a;
+	padding-top: 60px;
+
+	&__logo {
+	display: inline-block;
+	color: $default-text-color-inverted;
+	margin-bottom: 20px;
+}
+
+	&.footer-contact-item {
+	margin-bottom: 9px;
+}
+&__container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+	@include tablet {
+		max-width: 768px;
+		flex-direction: initial;
+		flex-wrap: wrap;
+		align-items: baseline;
+	}
+	@include desktop {
+		max-width: 1200px;
+		flex-wrap: nowrap;
+		text-align: start;
+	}
+}
+&__address-container {
+	width: inherit;
+	@include tablet{
+		padding-left: 76px;
+		margin-right: 165px;
+		width: auto;
+	}
+	@include desktop{
+	margin-right: 70px;
+	padding-left: 0px;
+	width: inherit;
+
+}
+	padding-bottom: 60px;
+}
+&__soc-container {
+	width: inherit;
+padding-bottom: 60px;
+	text-align: center;
+	@include tablet {
+		width: auto;
+	}
+	@include desktop {
+		margin-right: 93px;
+		padding-top: 12px;
+	}
+}
+&__soс-name {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: $standard-letter-spacing;
+	text-transform: uppercase;
+	color: $default-text-color-inverted;
+	margin-bottom: 20px;
+}
+}
+.contact-address,
+.footer-email,
+.footer-tel {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: $standard-letter-spacing;
+}
+
+.contact-address {
+	color: $main-background-color;
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	&:hover,
+	&:focus {
+	color: $action-color;
+}
+}
+.footer-email,
+.footer-tel {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.6);
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-email:hover,
+.footer-email:focus {
+	color: $action-color;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+	color: $action-color;
+}
+
+
+

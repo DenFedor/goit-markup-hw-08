@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	background: $main-background-color;
+	color: $default-text-color;
+	cursor: default;
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+
+}
