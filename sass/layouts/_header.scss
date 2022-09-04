@@ -12,7 +12,11 @@
 	display: inherit;
 	color: #000000;
 	width: 145px;
-	margin-right: 93px;
+	@include tablet {
+		margin-right: 88px;	
+	}
+	@include desktop{
+	margin-right: 93px;}
 }
 }
 
@@ -25,6 +29,9 @@
 }
 .nav {
 	display: none;
+	@include tablet {
+		display: flex;
+	}
 	&__list{
 	display: flex;
 	column-gap: 50px;}
@@ -62,9 +69,20 @@
 
 .contact {
 	display: none;
+	@include tablet {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		align-items: flex-start;
+	}
+	@include desktop {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
 	// display: inherit;
 	margin-left: auto;
-	gap: 30px;
+	// gap: 30px;
 	align-items: center;
 	&__icon {
 	margin-right: 10px;
@@ -73,6 +91,7 @@
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 	&__email,
 	&__tel {
 	display: flex;
