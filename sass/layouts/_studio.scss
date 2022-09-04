@@ -8,9 +8,9 @@
 	background-color: #c4c4c4;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: $main-background-gradient, url(../../images/studio/hero_bg480w.jpg);
+	background-image: $main-background-gradient, url(.././images/studio/);
 	@include retina {
-		background-image: $main-background-gradient, url(../../images/studio/hero_bg480w2x.jpg);
+		background-image: $main-background-gradient, url(.././images/studio/hero_bg480w2x.jpg);
 	}
 	@include mobile {
 		width: 480px;
@@ -18,9 +18,9 @@
 	};	
 	@include tablet {
 		width: 768px;
-		background-image: $main-background-gradient, url(../../images/studio/hero_bg768w.jpg);
+		background-image: $main-background-gradient, url(.././images/studio/hero_bg768w.jpg);
 		@include retina {
-			background-image: $main-background-gradient, url(../../images/studio/hero_bg768w2x.jpg);
+			background-image: $main-background-gradient, url(.././images/studio/hero_bg768w2x.jpg);
 		}
 	};
 	@include desktop {
@@ -29,9 +29,9 @@
 	height: 600px;
 	padding-top: 200px;
 	padding-bottom: 200px;
-		background-image: $main-background-gradient, url(../../images/studio/hero_bg1200w.jpg);
+		background-image: $main-background-gradient, url(.././images/studio/hero_bg1200w.jpg);
 		@include retina {
-			background-image: $main-background-gradient, url(../../images/studio/hero_bg1200w2x.jpg);
+			background-image: $main-background-gradient, url(.././images/studio/hero_bg1200w2x.jpg);
 		}
 	}
 	&__title {
