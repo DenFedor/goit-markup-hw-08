@@ -1292,7 +1292,6 @@ img {
   gap: 32px;
   padding-top: 48px;
 }
-
 .mob-menu-nav__item {
   font-style: normal;
   font-weight: 500;
@@ -1300,7 +1299,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-
 .mob-menu-nav__link {
   color: #212121;
 }
@@ -1314,7 +1312,6 @@ img {
   gap: 32px;
   margin-bottom: 64px;
 }
-
 .mob-menu-contact__email {
   margin-bottom: 64px;
   font-weight: 500;
@@ -1328,7 +1325,6 @@ img {
     font-size: 24px;
   }
 }
-
 .mob-menu-contact__tel {
   font-weight: 500;
   font-size: 22px;

@@ -29,55 +29,55 @@
         fill: $action-color;
     }
 }
-.mob-menu-nav__list {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding-top: 48px;
-}
-.mob-menu-nav__item {
-    font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 1.17;
-letter-spacing: $short-letter-spacing;
-}
-.mob-menu-nav__link {
-    color: $default-text-color;
-    &--current{
-        color: $action-color;
+.mob-menu-nav{
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 48px;
+    }
+    &__item {
+        font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: $short-letter-spacing;
+    }
+    &__link {
+        color: $default-text-color;
+        &--current{
+            color: $action-color;
+        }
     }
 }
 .mob-menu-contact {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-bottom: 64px;   
-}
-
-.mob-menu-contact__email {
     margin-bottom: 64px;
-font-weight: 500;
-font-size: 16px;
-@include mobile{
-    font-size: 24px;
-}
-
-line-height: 1.17;
-letter-spacing: $short-letter-spacing;
-
-color: $small-text-color;
-}
-.mob-menu-contact__tel {
-font-weight: 500;
-font-size: 22px;
-line-height: 1.17;
+    &__email {
+        margin-bottom: 64px;
+    font-weight: 500;
+    font-size: 16px;
     @include mobile{
-font-size: 34px;
-line-height: 1.17;}
-letter-spacing: $short-letter-spacing;
-color: $action-color;
+    font-size: 24px;
+    }
+    line-height: 1.17;
+    letter-spacing: $short-letter-spacing;
+    color: $small-text-color;
+    }
+    &__tel {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.17;
+            @include mobile{
+        font-size: 34px;
+        line-height: 1.17;}
+        letter-spacing: $short-letter-spacing;
+        color: $action-color;
+        }   
 }
+
 .mob-menu-soc {
     display: flex;
     gap: 10px;
