@@ -43,6 +43,14 @@
 }
 	padding-bottom: 60px;
 }
+&__contact-list{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	@include desktop {
+		gap: 9px;
+	}
+}
 &__soc-container {
 	width: inherit;
 padding-bottom: 60px;

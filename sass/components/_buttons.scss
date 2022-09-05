@@ -99,9 +99,8 @@ cursor: pointer;
 .sort-buttons {
 display: flex;
 flex-wrap: wrap;
-gap: 8px 15px;
+gap: 8px;
 justify-content: start;
-// margin-bottom: 50px; desktop
 margin-bottom: 40px;
 
 @include tablet{
